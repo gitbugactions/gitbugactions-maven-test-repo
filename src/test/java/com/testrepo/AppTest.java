@@ -37,4 +37,8 @@ public class AppTest
     public void testSumTwice() {
         assertEquals(6, new AppMath().sumTwice(2, 2));
     }
+
+    public void testSubtractTwice() {
+        assertEquals(2, new AppMath().subtractTwice(6, 2));
+    }
 }

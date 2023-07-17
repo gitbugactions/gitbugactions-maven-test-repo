@@ -21,6 +21,6 @@ public class AppMath {
     }
 
     public int subtractTwice(int a, int b) {
-        return a + b + b;
+        return a - b - b;
     }
 }

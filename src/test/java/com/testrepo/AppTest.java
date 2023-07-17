@@ -29,4 +29,12 @@ public class AppTest
     {
         assertEquals(1, new AppMath().subtract(2, 1));
     }
+
+    public void testMultiply() {
+        assertEquals(4, new AppMath().multiply(2, 2));
+    }
+
+    public void testSumTwice() {
+        assertEquals(6, new AppMath().sumTwice(2, 2));
+    }
 }

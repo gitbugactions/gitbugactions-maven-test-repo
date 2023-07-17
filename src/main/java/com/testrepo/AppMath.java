@@ -13,7 +13,7 @@ public class AppMath {
     }
 
     public int multiply(int a, int b) {
-        return a - b;
+        return a * b;
     }
 
     public int sumTwice(int a, int b) {
